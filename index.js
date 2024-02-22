@@ -57,6 +57,7 @@ function register () {
 
     // DOne
     alert('User Created!!')
+    window.location.assign("index.html")
   })
   .catch(function(error) {
     // Firebase will use this to alert of its errors
@@ -144,4 +145,7 @@ function validate_field(field) {
   } else {
     return true
   }
+}
+function registerdK(){
+  window.location.assign("signup.html")
 }
